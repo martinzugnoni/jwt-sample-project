@@ -1,8 +1,12 @@
 # JWT Sample project
 
-This project is only for testing purposes. It's main goal is to see how the
+This project is only for testing purposes. Its main goal is to see how the
 JSON Web Token authentication work in combination with `django-rest-framework`
 library, and using `djangorestframework-jwt` package.
+
+Once you have some users in the database, you should be able to call the 
+`/api-token-auth/` endpoint with valid `username` and `password` to get a
+JWT (JSON web token). Use the JWT later on to authenticate all your requests.
 
 
 #### Let's create a testing user
